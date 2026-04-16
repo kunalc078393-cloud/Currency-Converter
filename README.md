@@ -1,16 +1,102 @@
-# React + Vite
+# 💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+This is a simple and responsive currency converter built using **React**. It allows users to convert values between different currencies using real-time exchange rates fetched from an API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Convert currency values instantly
+* Swap currencies with a single click
+* Real-time exchange rates
+* Reusable and modular components
+* Custom React Hook for API handling
+* Responsive and clean UI
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+* React (Functional Components + Hooks)
+* JavaScript (ES6+)
+* Tailwind CSS (for styling)
+* Currency API (for exchange rates)
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── InputBox.js
+│   └── index.js
+│
+├── hooks/
+│   └── useCurrencyinfo.js
+│
+├── App.jsx
+└── App.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/currency-converter.git
+```
+
+2. Navigate into the project folder
+
+```
+cd currency-converter
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+---
+
+## 🧠 How It Works
+
+* The app fetches currency data using a custom hook `useCurrencyinfo`
+* User inputs an amount and selects currencies
+* Conversion is calculated using live exchange rates
+* Results are displayed instantly in the UI
+
+---
+
+## 🔄 Future Improvements
+
+* Add loading and error handling
+* Display currency symbols and flags
+* Auto-conversion on input change
+* Save recent conversions
+* Add dark mode
+
+---
+
+## 📸 Screenshot
+
+*(Add your project screenshot here)*
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
