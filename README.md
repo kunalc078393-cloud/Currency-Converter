@@ -49,7 +49,7 @@ src/
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/currency-converter.git
+git clone https://github.com/kunalc078393-cloud/Currency-Converter.git
 ```
 
 2. Navigate into the project folder
